@@ -20,7 +20,7 @@ public class UserService {
         User user4 = new User(4,"Bora",21,"bora@gmail.com");
         User user5 = new User(5,"Nuradil",23,"nuradil@gmail.com");
 
-        userList.addAll(Arrays.asList(user1,user2,user3,user4,user5));
+        userList.addAll(Arrays.asList(user1, user2, user3, user4, user5));
 
     }
     public Optional<User> getUser(Integer id){
